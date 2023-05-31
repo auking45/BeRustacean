@@ -4,11 +4,15 @@
 const EARTH_SECS: f64 = 31557600.0;
 
 #[derive(Debug)]
-pub struct Duration(f64);
+pub struct Duration {
+    secs: f64
+}
 
 impl From<u64> for Duration {
     fn from(s: u64) -> Self {
-        Self(s as f64)
+        Self {
+            secs: s as f64
+        }
     }
 }
 
@@ -29,62 +33,23 @@ pub struct Saturn;
 pub struct Uranus;
 pub struct Neptune;
 
-impl Mercury {
-    fn seconds() -> f64 {
-        0.2408467 * EARTH_SECS
-    }
-}
-
-impl Venus {
-    fn seconds() -> f64 {
-        0.61519726 * EARTH_SECS
-    }
-}
-
-impl Earth {
-    fn seconds() -> f64 {
-        EARTH_SECS
-    }
-}
-
-impl Mars {
-    fn seconds() -> f64 {
-        1.8808158 * EARTH_SECS
-    }
-}
-
-impl Jupiter {
-    fn seconds() -> f64 {
-        11.862615 * EARTH_SECS
-    }
-}
-
-impl Saturn {
-    fn seconds() -> f64 {
-        29.447498 * EARTH_SECS
-    }
-}
-
-impl Uranus {
-    fn seconds() -> f64 {
-        84.016846 * EARTH_SECS
-    }
-}
-
-impl Neptune {
-    fn seconds() -> f64 {
-        164.79132 * EARTH_SECS
-    }
-}
-
-macro_rules! impl_trait {
-    ($($t:ty),+) => {
+macro_rules! impl_trait2 {
+    ($(($t:ty, $p:literal)),+) => {
         $(impl Planet for $t {
             fn years_during(d: &Duration) -> f64 {
-                d.0 / <$t>::seconds()
+                d.secs / EARTH_SECS / $p
             }
         })*
     }
 }
 
-impl_trait!(Mercury, Venus, Earth, Mars, Jupiter, Saturn, Uranus, Neptune);
+impl_trait2!(
+    (Mercury, 0.2408467),
+    (Venus, 0.61519726),
+    (Earth, 1.0),
+    (Mars, 1.8808158),
+    (Jupiter, 11.862615),
+    (Saturn, 29.447498),
+    (Uranus, 84.016846),
+    (Neptune, 164.79132)
+);
