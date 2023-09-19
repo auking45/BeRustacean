@@ -1,0 +1,6 @@
+[book]
+authors = ["auking45"]
+language = "en"
+multilingual = false
+src = "src"
+title = "Be Better Rustacean"
