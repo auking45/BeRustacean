@@ -1,0 +1,59 @@
+name: Deploy docs
+on:
+  push:
+    branches: [ test ]
+  pull_request:
+    branches: [ test ]
+
+defaults:
+  run:
+    shell: bash
+
+jobs:
+  deploy:
+    runs-on: self-hosted
+
+    container:
+      image: ubuntu_22.04_mdbook:latest
+
+    steps:
+    - uses: actions/checkout@v2
+      with:
+        fetch-depth: 0
+
+    - name: Configure git to trust the workspace despite the different owner
+      run: |
+        git config --global --add safe.directory "$GITHUB_WORKSPACE"
+
+    - name: Add required files
+      run: |
+        mdbook-mermaid install docs
+        cp ./assets/mermaid/* ./docs
+
+    - name: Build mdbook
+      run: |
+        mdbook build
+
+    - name: Upload artifact
+      uses: actions/upload-artifact@v2
+      with:
+        name: docs
+        path: book/*
+
+    - name: Deploy GitHub Pages
+      if: github.ref == 'refs/heads/main'
+      run: |
+        mdbook build
+
+        git worktree add gh-pages
+        git config user.name "auking45"
+        git config user.email "auking45@gmail.com"
+
+        cd gh-pages
+        # Delete the ref to avoid keeping history.
+        git update-ref -d refs/heads/gh-pages
+        rm -rf *
+        mv ../book/* .
+        git add .
+        git commit -m "Deploy $GITHUB_SHA to gh-pages"
+        git push --force --set-upstream origin gh-pages
