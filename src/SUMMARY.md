@@ -10,6 +10,8 @@
   - [Two Sum](leetcode/rust/two_sum/README.md)
   - [Add Two Numbers](leetcode/rust/add_two_numbers/README.md)
   - [Longest Substring Without Repeating Characters](leetcode/rust/longest_substring/README.md)
+  - [Median of Two Sorted Arrays](leetcode/rust/median_of_two_sorted_arrays/README.md)
+  - [Longest Palindromic Substring](leetcode/rust/longest_palindromic_substring/README.md)
 - [🏋️‍♀️ Exercism](exercism/rust/README.md)
   - [Hello World](exercism/rust/hello-world/README.md)
   - [Reverse String](exercism/rust/reverse-string/README.md)
