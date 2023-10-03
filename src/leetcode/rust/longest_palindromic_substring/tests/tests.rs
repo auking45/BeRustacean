@@ -9,3 +9,8 @@ fn test_1() {
 fn test_2() {
     assert_eq!("bb", Solution::longest_palindrome("cbbd".to_string()));
 }
+
+#[test]
+fn test_3() {
+    assert_eq!("a", Solution::longest_palindrome("a".to_string()));
+}
