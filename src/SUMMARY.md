@@ -12,6 +12,7 @@
   - [Longest Substring Without Repeating Characters](leetcode/rust/longest_substring/README.md)
   - [Median of Two Sorted Arrays](leetcode/rust/median_of_two_sorted_arrays/README.md)
   - [Longest Palindromic Substring](leetcode/rust/longest_palindromic_substring/README.md)
+  - [Zigzag Conversion](leetcode/rust/zigzag_conversion/README.md)
 - [🏋️‍♀️ Exercism](exercism/rust/README.md)
   - [Hello World](exercism/rust/hello-world/README.md)
   - [Reverse String](exercism/rust/reverse-string/README.md)
@@ -19,6 +20,7 @@
   - [Clock](exercism/rust/clock/README.md)
   - [Anagram](exercism/rust/anagram/README.md)
   - [Space Age](exercism/rust/space-age/README.md)
+  - [Sublist](exercism/rust/sublist/README.md)
 
 # Final Words
 

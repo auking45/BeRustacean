@@ -7,5 +7,6 @@ This page provides useful information about how to solve problems in [LeetCode].
 - [Longest Substring Without Repeating Characters](longest_substring/README.md)
 - [Median of Two Sorted Arrays](median_of_two_sorted_arrays/README.md)
 - [Longest Palindromic Substring](longest_palindromic_substring/README.md)
+- [Zigzag Conversion](zigzag_conversion/README.md)
 
 [LeetCode]: https://leetcode.com/

@@ -8,5 +8,6 @@ This page provides useful information about how to solve problems in [Exercism].
 - [Clock](clock/README.md)
 - [Anagram](anagram/README.md)
 - [Space Age](space-age/README.md)
+- [Sublist](sublist/README.md)
 
 [Exercism]: https://exercism.org/
