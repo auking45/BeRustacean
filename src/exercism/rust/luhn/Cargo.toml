@@ -2,3 +2,7 @@
 edition = "2021"
 name = "luhn"
 version = "1.6.1"
+
+[[bin]]
+name = "debug_bin"
+path = "src/main.rs"
