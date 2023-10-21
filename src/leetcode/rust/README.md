@@ -8,5 +8,6 @@ This page provides useful information about how to solve problems in [LeetCode].
 - [Median of Two Sorted Arrays](median_of_two_sorted_arrays/README.md)
 - [Longest Palindromic Substring](longest_palindromic_substring/README.md)
 - [Zigzag Conversion](zigzag_conversion/README.md)
+- [Reverse Integer](reverse_integer/README.md)
 
 [LeetCode]: https://leetcode.com/

@@ -9,5 +9,6 @@ This page provides useful information about how to solve problems in [Exercism].
 - [Anagram](anagram/README.md)
 - [Space Age](space-age/README.md)
 - [Sublist](sublist/README.md)
+- [luhn](luhn/README.md)
 
 [Exercism]: https://exercism.org/
