@@ -14,6 +14,7 @@
   - [Longest Palindromic Substring](leetcode/rust/longest_palindromic_substring/README.md)
   - [Zigzag Conversion](leetcode/rust/zigzag_conversion/README.md)
   - [Reverse Integer](leetcode/rust/reverse_integer/README.md)
+  - [String to Integer (atoi)](leetcode/rust/string_to_integer_atoi/README.md)
 - [🏋️‍♀️ Exercism](exercism/rust/README.md)
   - [Hello World](exercism/rust/hello-world/README.md)
   - [Reverse String](exercism/rust/reverse-string/README.md)
@@ -23,6 +24,7 @@
   - [Space Age](exercism/rust/space-age/README.md)
   - [Sublist](exercism/rust/sublist/README.md)
   - [Luhn](exercism/rust/luhn/README.md)
+  - [Parallel Letter Frequency](exercism/rust/parallel-letter-frequency/README.md)
 
 # Final Words
 
