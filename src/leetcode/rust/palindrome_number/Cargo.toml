@@ -7,6 +7,10 @@ edition = "2021"
 
 [dependencies]
 
+[lib]
+name = "palindrome_number"
+path = "src/lib2.rs"
+
 [[bin]]
 name = "debug_bin"
 path = "src/main.rs"
