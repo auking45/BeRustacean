@@ -6,6 +6,8 @@
 
 ----
 
+- [🦀 Rust](rust/README.md)
+  - [Macros](rust/macros.md)
 - [💪 LeetCode](leetcode/rust/README.md)
   - [Two Sum](leetcode/rust/two_sum/README.md)
   - [Add Two Numbers](leetcode/rust/add_two_numbers/README.md)
