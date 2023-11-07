@@ -18,6 +18,7 @@
   - [Reverse Integer](leetcode/rust/reverse_integer/README.md)
   - [String to Integer (atoi)](leetcode/rust/string_to_integer_atoi/README.md)
   - [Palindrome Number](leetcode/rust/palindrome_number/README.md)
+    - [Write up](leetcode/rust/palindrome_number/solution.md)
 - [🏋️‍♀️ Exercism](exercism/rust/README.md)
   - [Hello World](exercism/rust/hello-world/README.md)
   - [Reverse String](exercism/rust/reverse-string/README.md)
