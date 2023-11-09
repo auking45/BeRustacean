@@ -1,5 +1,5 @@
 # 5. Longest Palindromic Substring
-**Medium**
+<span style="color:yellow">Medium</span>
 
 Given a string s, return the longest palindromic substring in s.
 

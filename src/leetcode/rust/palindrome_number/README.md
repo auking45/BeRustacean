@@ -1,5 +1,5 @@
 # 9. Palindrome Number
-**Easy**
+<span style="color:green">Easy</span>
 
 Hint
 Given an integer x, return true if x is a palindrome, and false otherwise.

@@ -1,5 +1,5 @@
 # 3. Longest Substring Without Repeating Characters
-**Medium**
+<span style="color:yellow">Medium</span>
 
 Given a string s, find the length of the longest substring without repeating characters.
 
@@ -24,7 +24,7 @@ Explanation: The answer is "wke", with the length of 3.
 ```
 
 Notice that the answer must be a substring, "pwke" is a subsequence and not a substring.
- 
+
 
 Constraints:
 - 0 <= s.length <= 5 * 104

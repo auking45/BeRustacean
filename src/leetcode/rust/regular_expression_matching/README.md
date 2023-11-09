@@ -1,5 +1,5 @@
 # 10. Regular Expression Matching
-**Hard**
+<span style="color:red">Hard</span>
 
 Given an input string s and a pattern p, implement regular expression matching with support for '.' and '*' where:
 

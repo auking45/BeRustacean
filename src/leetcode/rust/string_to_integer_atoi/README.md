@@ -1,5 +1,5 @@
-8. String to Integer (atoi)
-**Medium**
+* 8. String to Integer (atoi)
+<span style="color:yellow">Medium</span>
 
 Implement the myAtoi(string s) function, which converts a string to a 32-bit signed integer (similar to C/C++'s atoi function).
 
