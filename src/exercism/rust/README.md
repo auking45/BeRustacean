@@ -13,5 +13,6 @@ This page provides useful information about how to solve problems in [Exercism].
 - [Luhn](luhn/README.md)
 - [Parallel Letter Frequency](parallel-letter-frequency/README.md)
 - [Macros](macros/README.md)
+- [Poker](poker/README.md)
 
 [Exercism]: https://exercism.org/

@@ -19,6 +19,7 @@
   - [String to Integer (atoi)](leetcode/rust/string_to_integer_atoi/README.md)
   - [Palindrome Number](leetcode/rust/palindrome_number/README.md)
     - [Write up](leetcode/rust/palindrome_number/solution.md)
+  - [Regular Expression Matching](leetcode/rust/regular_expression_matching/README.md)
 - [🏋️‍♀️ Exercism](exercism/rust/README.md)
   - [Hello World](exercism/rust/hello-world/README.md)
   - [Reverse String](exercism/rust/reverse-string/README.md)
@@ -31,6 +32,7 @@
   - [Luhn](exercism/rust/luhn/README.md)
   - [Parallel Letter Frequency](exercism/rust/parallel-letter-frequency/README.md)
   - [Macros](exercism/rust/macros/README.md)
+  - [Poker](exercism/rust/poker/README.md)
 
 # Final Words
 
