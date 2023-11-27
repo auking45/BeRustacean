@@ -14,5 +14,6 @@ This page provides useful information about how to solve problems in [Exercism].
 - [Parallel Letter Frequency](parallel-letter-frequency/README.md)
 - [Macros](macros/README.md)
 - [Poker](poker/README.md)
+- [Forth](forth/README.md)
 
 [Exercism]: https://exercism.org/
